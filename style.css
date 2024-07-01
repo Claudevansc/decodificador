@@ -1,0 +1,141 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    background-color: #F3F5FC;
+}
+
+.logo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo__img {
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo {
+    display: flex;
+    width: 600px;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contento__titulo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto {
+    width: 600px;
+    height: 48px;
+    border: none;
+    color: #0A3871;
+    font-size: 22px;
+    margin-top: 75px;
+    background-color: #F3F5FC;
+}
+
+.paragrafo {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.paragrafo__maiuscula {
+    display: none;
+    color: red;
+}
+
+.paragrafo__caracter--especial {
+    display: none;
+    color: red;
+}
+
+.botoes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.btn {
+    width: 260px;
+    height: 45px;
+    border: none;
+    color: #0A3871;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid #0A3871;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #0A3871;
+}
+
+.conteudo__img {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:  #F3F5FC;
+}
+
+#img {
+    width: 100%;
+    height: 95%;
+    display: block;
+    border-radius: 20px;
+}
+
+#msg {
+    width: 100%;
+    height: 95%;
+    display: none;    
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.msg__parag {
+    margin-top: 55px;
+}
+
+.copia {
+    width: 260px;
+    height: 45px;
+    border: none;
+    color: #0A3871;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid #0A3871;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.copia:hover {
+    color: white;
+    background-color: #0A3871;
+}
+
+.continua {
+    display: none;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <link rel="shortcut icon" href="./img/alura.ico" type="image/x-icon">
+    <title>Decodificador</title>
+</head>
+    <body>
+        <main class="main">
+            <div class="logo">
+                <img class="logo__img" src="./img/logo2.png" alt="">
+            </div>
+            <section class="conteudo">
+                <div class="contento__titulo">
+                    <input class="texto" type="text" placeholder="Digite seu texto">
+                    <div class="paragrafo">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        Apenas letras minúsculas e sem acento.
+                    </div>
+                    <div class="paragrafo__maiuscula">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        Observação o texto só pode ter letras minúsculas, tente novamente!
+                    </div>
+                    <div class="paragrafo__caracter--especial">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        Observação o texto não pode conter caracteres especiais, tente novamente!
+                    </div>
+                </div>
+                <div class="botoes">                    
+                    <button class="btn" onclick="criptografar()">Criptografar</button>
+                    <button class="btn" onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </section>
+            <section class="conteudo__img">
+                <img id="img" src="./img/1.PNG" alt="">
+                <div id="msg">
+                    <p class="msg__parag"></p>
+                    <button class="copia" onclick="copiaTexto()">Copiar</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
